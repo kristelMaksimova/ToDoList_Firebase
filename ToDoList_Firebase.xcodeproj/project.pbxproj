@@ -17,6 +17,8 @@
 		202DBDBE286F16D400A26339 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 202DBDBD286F16D400A26339 /* GoogleService-Info.plist */; };
 		202DBDC1286F1A0100A26339 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 202DBDC0286F1A0100A26339 /* FirebaseAuth */; };
 		202DBDC3286F1A0100A26339 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 202DBDC2286F1A0100A26339 /* FirebaseDatabase */; };
+		20F42712286F4F730008D269 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F42711286F4F730008D269 /* User.swift */; };
+		20F42714286F4F7E0008D269 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F42713286F4F7E0008D269 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		202DBDB6286F11C100A26339 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		202DBDBB286F142A00A26339 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ToDoList_Firebase/Storyboard/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
 		202DBDBD286F16D400A26339 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		20F42711286F4F730008D269 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		20F42713286F4F7E0008D269 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,18 @@
 			children = (
 				202DBDA6286F0C8000A26339 /* Main.storyboard */,
 				202DBDAB286F0C8300A26339 /* LaunchScreen.storyboard */,
+				20F42715286F4F870008D269 /* Models */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		20F42715286F4F870008D269 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20F42711286F4F730008D269 /* User.swift */,
+				20F42713286F4F7E0008D269 /* Task.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +197,8 @@
 				202DBDBC286F142A00A26339 /* LoginViewController.swift in Sources */,
 				202DBDB7286F11C100A26339 /* TasksViewController.swift in Sources */,
 				202DBDA1286F0C8000A26339 /* AppDelegate.swift in Sources */,
+				20F42712286F4F730008D269 /* User.swift in Sources */,
+				20F42714286F4F7E0008D269 /* Task.swift in Sources */,
 				202DBDA3286F0C8000A26339 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
