@@ -68,6 +68,7 @@
 		202DBD9F286F0C8000A26339 /* ToDoList_Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				20F42715286F4F870008D269 /* Models */,
 				202DBDBA286F125A00A26339 /* Storyboard */,
 				202DBDB9286F124400A26339 /* Controllers */,
 				202DBDB8286F121F00A26339 /* Supporting files */,
@@ -101,7 +102,6 @@
 			children = (
 				202DBDA6286F0C8000A26339 /* Main.storyboard */,
 				202DBDAB286F0C8300A26339 /* LaunchScreen.storyboard */,
-				20F42715286F4F870008D269 /* Models */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";

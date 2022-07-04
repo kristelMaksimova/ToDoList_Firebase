@@ -17,7 +17,7 @@ struct Task {
     
     init(title: String, userId: String) {
         self.title = title
-        self.userId = title
+        self.userId = userId
         self.ref = nil
     }
     
@@ -27,6 +27,10 @@ struct Task {
         userId = snapshotValue["userId"] as! String
         completed = snapshotValue["completed"] as! Bool
         ref = snapshot.ref
+    }
+    
+    func convertToDictionary() -> Any {
+      return  ["title": title, "userId": userId, "completed": completed]
     }
     
 }
