@@ -106,7 +106,6 @@ class TasksViewController: UITableViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    
     @IBAction func addTapped(_ sender: UIBarButtonItem) {
         let alertController = UIAlertController(title: "New task", message: "Add new ask", preferredStyle: .alert)
        

@@ -104,7 +104,6 @@ class LoginViewController: UIViewController {
                 print(error!.localizedDescription)
                 return
             }
-            
             let userRef = self?.ref.child((user?.user.uid)!)
             userRef!.setValue(["email": user?.user.email])
         })
