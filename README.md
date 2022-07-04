@@ -33,3 +33,4 @@ On this screen, the user can add a task, mark it as done, and delete it.
 9. Table view configuration
 10. Custom table view cells
 11. Application lifecycle
+
