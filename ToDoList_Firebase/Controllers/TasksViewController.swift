@@ -94,7 +94,6 @@ class TasksViewController: UITableViewController {
         cell.accessoryType = isCompleted ? .checkmark : .none
     }
     
-    
     // MARK: - IBActions
     
     @IBAction func signOutTapped(_ sender: UIBarButtonItem) {

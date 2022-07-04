@@ -91,7 +91,6 @@ class LoginViewController: UIViewController {
         })
     }
     
-    
     @IBAction func registerTapped(_ sender: UIButton) {
         guard let email = emailTextField.text, let password = passwordTextField.text, email != "", password != "" else {
             displayWarningLabel(text: "Info is incorrect")
