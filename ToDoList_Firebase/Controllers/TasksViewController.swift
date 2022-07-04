@@ -16,7 +16,6 @@ class TasksViewController: UITableViewController {
     var ref: DatabaseReference!
     var tasks = Array<Task>()
     
-    
     //MARK: - Public properties
     
     override func viewDidLoad() {
