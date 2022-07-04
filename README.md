@@ -28,7 +28,14 @@ On this screen, the user can add a task, mark it as done, and delete it.
 10. Custom table view cells
 11. Application lifecycle
 
-<img width="323" alt="Снимок экрана 2022-07-04 в <img width="321" alt="Снимок экрана 2022-07-04 в 14 51 47" src="https://user-images.githubusercontent.com/51018025/177157003-fe3c54ac-1b1b-49f6-8692-47b9af7ad981.png">
-14 52 36" src="https://user-images.githubusercontent.com/51018025/177156946-461d6fba-7f9b-448f-8f74-8ffc5a2c8cc3.png">
-<img width="325" alt="Снимок экрана 2022-07-04 в 14 52 08" src="https://user-images.githubusercontent.com/51018025/177156976-72548be6-5d87-41d9-9c22-f140faa0abe8.png">
+### Login screen
+
+<img width="323" alt="Снимок экрана 2022-07-04 в 14 52 36" src="https://user-images.githubusercontent.com/51018025/177157378-4fbac210-3868-4d70-b216-ba3e082b07fe.png">
+
+### Tasks screen
+
+<img width="321" alt="Снимок экрана 2022-07-04 в 14 51 47" src="https://user-images.githubusercontent.com/51018025/177157481-ef4c8ed2-9dd2-4eaf-a6d2-8eca90deffe5.png">
+
+<img width="325" alt="Снимок экрана 2022-07-04 в 14 52 08" src="https://user-images.githubusercontent.com/51018025/177157513-65337db8-2164-4b8e-bdc4-7a951dc5fb67.png">
+
 
