@@ -8,18 +8,6 @@ App's two of controllers is:
     - Login controller
     - Tasks controller
 
-### Used knowledge
-1. MVC pattern
-2.Working with Firebase
-3. Working with Realtime Database
-4. Working with Models
-6. Storyboard layout
-7. Navigation controller configuration
-8. Tab bar controller configuration
-9. Table view configuration
-10. Custom table view cells
-11. Application lifecycle
-
 ### Login controller
 
 Presents the user's authorization screen.
